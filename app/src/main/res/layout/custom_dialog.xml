@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/col1">
+
+    <Button
+        android:text="Открыть в системме"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button_open_sis"
+        android:background="@drawable/button_fon_menu" />
+
+    <Button
+        android:text="Скачать другим загрузчиком"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button_open_daw"
+        android:background="@drawable/button_fon_menu" />
+
+    <Button
+        android:text="Закрыть окно"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button_close"
+        android:background="@drawable/button_fon_menu" />
+</LinearLayout>

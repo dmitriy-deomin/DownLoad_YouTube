@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">!Скачать с ютуба</string>
+         <string name="Abaut_text">
+        ++++++++++
+         \n
+         © 2016 , Deomin Dmitriy
+         \n
+         E-mail:58627@bk.ru
+        \n\n
+        libraries used:
+             \n\n
+        *Jsoup
+             \n
+       org.jsoup:jsoup:1.9.2
+             \n\n
+        *ThinDownloadManager
+             \n
+        com.mani:ThinDownloadManager:1.2.5
+        \n
+    </string>
+    <string name="url_string">Адрес или id видео</string>
+    <string name="send_pismo_string">Написать письмо\n58627@bk.ru</string>
+    <string name="del_string">Удалить</string>
+    <string name="close_string">Закрыть</string>
+    <string name="nied_internet_conekt">Нужно интернет соединение</string>
+    <string name="load_ifo_string">
+        \n Для скачивания нужно вставить полный адрес или только id видео в поле \"Адрес или id видео\",
+        или в приложении Youtube поделится видео через \"Скачать с ютуб\". Затем нажать
+        справа галочку для загрузки ссылок нужного качества видео.
+        \n\n\n
+        -Клик на нужном качестве запустит загрузку файла в папку с ВИДЕО\n
+        -Долгий тап скопирует ссылку на видео в буфер обмена и предложит открыть
+        \n
+        -Клик на логотипе откроет историю ранее введеных адресов
+        \n\n
+        *Вслучае отображения вместо веса видео нулей и пр нажмите еще раз получение ссылок(галочку)
+
+    </string>
+</resources>

@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dmitriy.deomin.helpnumber_free.Pozvonit_na_gorodskoy">
+
+    <item
+        android:id="@+id/action_del_all"
+        android:title="Удалить все"
+        android:orderInCategory="1"
+        android:showAsAction="never" />
+
+
+</menu>

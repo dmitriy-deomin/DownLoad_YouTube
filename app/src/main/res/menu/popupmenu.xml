@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menugroup1" >
+
+        <item
+            android:id="@+id/action_history"
+            android:title="История"/>
+        <item
+            android:id="@+id/action_abaut"
+            android:title="О программе"/>
+
+        <item
+            android:id="@+id/action_exit"
+            android:title="Выход">
+            </item>
+    </group>
+
+</menu>

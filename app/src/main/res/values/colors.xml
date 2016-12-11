@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#68c681</color>
+    <color name="colorPrimaryDark">#159b84</color>
+    <color name="colorAccent">#2c91a1</color>
+    <color name="red_logo" >#620ae6</color>
+    <color name="url_color" >#56a1e2</color>
+    <color name="col1" >#2b72b1</color>
+    <color name="col2" >#64aae7</color>
+    <color name="beliy" >#8a7bb0df</color>
+    <color name="orange" >#f1a519</color>
+    <color name="red2" >#b60b0b</color>
+    <color name="red1" >#030ffa</color>
+
+</resources>

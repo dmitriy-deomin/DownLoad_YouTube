@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    app:cardCornerRadius="2dp"
+    android:layout_margin="3dp"
+    android:background="@color/colorPrimaryDark">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fon_news_adapter"
+        android:background="@color/beliy">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Название:"
+                android:id="@+id/textView2"
+                android:textSize="12dp"
+                android:maxWidth="60dp"
+                android:minWidth="60dp"
+                android:textColor="@color/red_logo"
+                android:layout_marginLeft="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Название видео"
+                android:id="@+id/textView_title"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="7dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Качество \nи размер"
+                android:id="@+id/textView4"
+                android:textSize="12dp"
+                android:maxWidth="60dp"
+                android:minWidth="60dp"
+                android:textColor="@color/red_logo"
+                android:layout_marginLeft="3dp"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hd"
+                android:id="@+id/textView_quality"
+                android:textSize="19dp"
+                android:textColor="@color/orange"
+                android:textStyle="bold"
+                android:layout_marginLeft="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" / "
+                android:id="@+id/textView6"
+                android:textSize="19dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 mb"
+                android:id="@+id/textView_size"
+                android:textSize="19dp"
+                android:textColor="@color/red1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Инфо:"
+                android:id="@+id/textView3"
+                android:textSize="12dp"
+                android:maxWidth="60dp"
+                android:minWidth="60dp"
+                android:textColor="@color/red_logo"
+                android:layout_marginLeft="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="info"
+                android:id="@+id/textView_type"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="7dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
